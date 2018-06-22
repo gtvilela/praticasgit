@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+</head>
+<script type="text/javascript">
+var i, g = parseInt(prompt("Informe a quantidade de fornecedores que você deseja cadastrar")), vet = new Array ();
+var obj = new Object();
+
+for (i = 0; i < g; i++) {
+	obj.nome = prompt("Informe seu nome: ");
+	obj.telefone = prompt("Informe seu telefone: ");
+    obj.cnpj = prompt("Informe seu CNPJ: ");
+    vet[i] = "Fornecedor: " + obj["nome"] + "<br/> Telefone: " + obj["telefone"] + "<br/> CNPJ: " + obj["cnpj"] + "<br/>";
+
+document.write (vet[i] + "<br/>");
+}
+
+document.write ("<br/>");
+
+</script>
+</body>
+</html>

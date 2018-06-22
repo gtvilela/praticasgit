@@ -1,0 +1,80 @@
+body {
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logoImg, .titulo {
+    display: block;
+    width: 59.3rem;
+    height: 7rem;
+    padding-left: 0.7rem;
+}
+.logoImg {
+    background-color: #ffbbdd;
+    position: absolute;
+    padding-top: 0.7rem;
+}
+.titulo {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: #f0b0d0;
+    width: 100%;
+    margin-top: -0.5rem;
+    height: 3.5rem;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+}
+ul {
+    margin-left: -2rem;
+}
+li {
+    display: inline-block;
+    height: 1.5rem;
+    width: 5rem;
+    text-align: center;
+}
+a {
+    text-decoration-line: none;
+    color: white;
+}
+.produto {
+    display: inline-block;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    border: 0.05rem #e5e5e5 solid;
+    width: 13rem;
+    height: 16rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.detalhes {
+    background-color: #f0f0f0;
+    margin-top: 2.8rem;
+    height: 4.5rem;
+    padding-top: 0.3rem;
+    font-size: 0.85rem;
+}
+footer {
+    background-color: #ffbbdd;
+    text-align: center;
+    font-size: 0.8rem;
+    height: 1.5rem;
+}
+.produtoImagem, .detalhes {
+    display: block;
+}
+.preco {
+    font-weight: bold;
+}
+footer p {
+    padding-top: 0.3rem;
+}

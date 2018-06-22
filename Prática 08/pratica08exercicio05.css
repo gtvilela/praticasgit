@@ -1,0 +1,15 @@
+img {
+    padding: 2rem;
+}
+
+img:hover {
+    
+}
+div {
+   border: 1rem;
+   border-color: black;
+}
+
+h1 {
+    color: green;
+}

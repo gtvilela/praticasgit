@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Agência de Viagens</title>
+    <link rel="stylesheet" type="text/css" href="pratica09exercicio04.css"/>
+    <script type="text/javascript" src="pratica09exercicio04.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="imagem/logo.jpg" alt="Logo da empresa."> 
+    </header>
+
+    <section class="slogan">
+      <h1>A melhor agência de viagens!</h1>
+    </section>
+
+    <main id="destinos" class="destinos"> <!-- O conteúdo do elemento <main> deve ser único. O elemento <main> não deve conter conteúdo que repete em outras partes da página, como sidebars, links de navegação, informacao de copyright, logos e caixas de pesquisa/busca. Cada documento deve ter apenas um elemento <main>. O elemento <main> não deve ser um descendente de um elemento <article>, <aside>, <footer>, <header>, or <nav>. -->
+      <article class="bloco1">
+        <img src="imagem/riodejaneiro.jpg" alt="Rio de Janeiro.">
+        <h5>Rio de Janeiro, RJ, Brasil.</h5>
+        <a href="#rio" class="botao" onclick="rio()">Orçamento</a>
+      </article> 
+      <article class="bloco1">
+        <img src="imagem/jalapao.jpg" alt="Jalapão.">
+        <h5>Parque Estadual do Jalapão, TO, Brasil.</h5>
+        <a href="#jalapao" class="botao" onclick="jalapao()">Orçamento</a>
+      </article> 
+
+      <article class="bloco1">
+        <img src="imagem/bentogoncalves.jpg" alt="Bento Gonçalves.">
+        <h5>Bento Gonçalves, RS, Brasil.</h5>
+        <a href="#bentogoncalves" class="botao" onclick="bentogoncalves()">Orçamento</a>
+      </article> 
+      <article class="bloco2">
+        <img src="imagem/aparadosdaserra.jpeg" alt="Aparados da Serra.">
+        <h5>Parque Nacional de Aparados da Serra, RS e SC, Brasil.</h5>
+        <a href="#aparados" class="botao" onclick="aparados()">Orçamento</a>
+      </article> 
+
+      <article class="bloco2">
+        <img src="imagem/serradoriodorastro.jpg" alt="Serra do Rio do Rastro.">
+        <h5>Serra do Rio do Rastro, Bom Jardim da Serra, SC, Brasil.</h5>
+        <a href="#riodorastro" class="botao" onclick="riodorastro()">Orçamento</a>
+      </article> 
+      <article class="bloco2">
+        <img src="imagem/pomerode.jpg" alt="Pomerode.">
+        <h5>Pomerode, SC, Brasil.</h5>
+        <a href="#pomerode" class="botao" onclick="pomerode()">Orçamento</a>
+      </article> 
+
+      <article class="bloco3">
+        <img src="imagem/chapadadosveadeiros.jpg" alt="Chapada dos Veadeiros.">
+        <h5>Parque Nacional da Chapada dos Veadeiros, GO, Brasil.</h5>
+        <a href="#chapadadosveadeiros" class="botao" onclick="chapadadosveadeiros()">Orçamento</a>
+      </article> 
+      <article class="bloco3">
+        <img src="imagem/puntadelleste.jpg" alt="Punta del Leste.">
+        <h5>Punta del Leste, Uruguai.</h5>
+        <a href="#puntadelleste" class="botao" onclick="puntadelleste()">Orçamento</a>
+      </article> 
+
+      <article class="bloco3">
+        <img src="imagem/montevideo.jpg" alt="Montevideo.">
+        <h5>Montevideo, Uruguai.</h5>
+        <a href="#montevideo" class="botao" onclick="montevideo()">Orçamento</a>
+      </article> 
+      <article class="bloco4">
+        <img src="imagem/coloniadelsacramento.jpg" alt="Colonia del Sacramento.">
+        <h5>Colonia del Sacramento, Uruguai.</h5>
+        <a href="#coloniadelsacramento" class="botao" onclick="coloniadelsacramento()">Orçamento</a>
+      </article> 
+
+      <article class="bloco4">
+        <img src="imagem/buenosaires.jpg" alt="Buenos Aires.">
+        <h5>Buenos Aires, Argentina.</h5>
+        <a href="#buenosairesbuenosaires" class="botao" onclick="buenosaires()">Orçamento</a>
+      </article> 
+      <article class="bloco4">
+        <img src="imagem/bonito.jpg" alt="Bonito, MS, Brasil.">
+        <h5>Bonito, MS, Brasil.</h5>
+        <a href="#bonito" class="botao" onclick="bonito()">Orçamento</a>
+      </article> 
+           
+
+      <article class="bloco5">
+        <img src="imagem/arapey.jpg" alt="Termas del Arapey, Salto, Uruguai.">
+        <h5>Termas del Arapey, Salto, Uruguai.</h5>
+        <a href="#termasdelarapay" class="botao" onclick="termasdelarapay()">Orçamento</a>
+      </article> 
+      <article class="bloco5">
+        <img src="imagem/dayman.jpg" alt="Termas del Dayman, Salto, Uruguai.">
+        <h5>Termas del Dayman, Salto, Uruguai.</h5>
+        <a href="#termasdeldayman" class="botao" onclick="termasdeldayman()">Orçamento</a>
+      </article> 
+      <article class="bloco5">
+        <img src="imagem/lagoadoperi.jpg" alt="Lagoa do Peri, Florianópolis, SC, Brasil.">
+        <h5>Lagoa do Peri, Florianópolis, SC, Brasil.</h5>
+        <a href="#lagoadoperi" class="botao" onclick="lagoadoperi()">Orçamento</a>
+      </article>
+
+      <article class="bloco6">
+        <img src="imagem/saopaulo.jpg" alt="São Paulo, SP, Brasil.">
+        <h5>São Paulo, SP, Brasil.</h5>
+        <a href="#sp" class="botao" onclick="sp()">Orçamento</a>
+      </article> 
+
+      <article class="bloco6">
+        <img src="imagem/curitiba.jpg" alt="Curitiba, PR, Brasil.">
+        <h5>Curitiba, PR, Brasil.</h5>
+        <a href="#curitiba" class="botao" onclick="curitiba()">Orçamento</a>
+      </article> 
+      <article class="bloco6">
+        <img src="imagem/fozdoiguacu.jpg" alt="Foz do Iguaçu, PR, Brasil.">
+        <h5>Foz do Iguaçu, PR, Brasil.</h5>
+        <a href="#fozdoiguacu" class="botao" onclick="fozdoiguacu()">Orçamento</a>
+      </article> 
+    </main>
+    
+    <section class="login">
+      <form>
+        <input type="email" class="email_usr" name="email_usuario" placeholder="Informe seu e-mail.">
+        <input type="password" class="senha_usr" name="senha_usuario" placeholder="Informe sua senha.">
+        <input type="submit" class="botao" value="Entrar">
+      </form>
+    </section>
+
+    <footer class="rodape">
+      <addres>
+        Mais Viagens
+        <section class="endereco">
+          Avenida Afonso Pena, n. 1.800, Centro, Belo Horizonte, MG, Brasil, CEP.: 31.435-700.
+        </section>
+
+        <section class="telefone">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          +55 31 3798 4498
+        </section>
+
+        <section class="whatsapp">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i> 
+          +55 31 9 9985 6487
+        </section>
+
+        <section class="facebook">
+          <a href="http://www.facebook.com.br">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            Facebook
+          </a>
+        </section>
+      </addres>
+    </footer>
+
+    <div id="rio">
+      <div id="orcamento"><p class="orc1">Orçamento Rio de Janeiro</p></div> <br/> 1000,00 <br/>
+      <div id="orcamento"><p class="orc2">Orçamento Rio de Janeiro</p></div> <br/> 2 x 550,00 <br/>
+      <div id="orcamento"><p class="orc3">Orçamento Rio de Janeiro</p></div> <br/> 3 x 400,00 <br/>
+      <div id="orcamento"><p class="orc4">Orçamento Rio de Janeiro</p></div> <br/> 4 x 300,00 <br/>
+      <div class="informacao"><h4>Informações Adicionais</h4></div>
+      <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="jalapao">
+        <div id="orcamento"><p class="orc1">Orçamento Jalapão</p></div> <br/>1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Jalapão</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Jalapão</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Jalapão</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="bentogoncalves">
+        <div id="orcamento"><p class="orc1">Orçamento Bento Gonçalves</p></div> <br/> 1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Bento Gonçalves</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Bento Gonçalves</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Bento Gonçalves</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="aparados">
+        <div id="orcamento"><p class="orc1">Orçamento Aparados da Serra</p></div> <br/> 1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Aparados da Serra</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Aparados da Serra</p></div>  <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Aparados da Serra</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="riodorastro">
+        <div id="orcamento"><p class="orc1">Orçamento Rio do Rastro</p></div> <br/> 1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Rio do Rastro</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Rio do Rastro</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Rio do Rastro</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="pomerode">
+        <div id="orcamento"><p class="orc1">Orçamento Pomedore</p></div> <br/> 1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Pomedore</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Pomedore</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Pomedore</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="chapadadosveadeiros">
+        <div id="orcamento"><p class="orc1">Orçamento Chapada dos Veadeiros</p></div> <br/> 1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Chapada dos Veadeiros</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Chapada dos Veadeiros</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Chapada dos Veadeiros</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="puntadelleste">
+        <div id="orcamento"><p class="orc1">Orçamento Punta del Leste</p></div> <br/>1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Punta del Leste</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Punta del Leste</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Punta del Leste</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="montevideo">
+        <div id="orcamento"><p class="orc1">Orçamento Montevideo</p></div> <br/> 1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Montevideo</p></div> 2 x 550,00 <br/> 
+        <div id="orcamento"><p class="orc3">Orçamento Montevideo</p></div> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Montevideo</p></div> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="coloniadelsacramento">
+        <div id="orcamento"><p class="orc1">Orçamento Colonial del Sacramento</p></div> <br/> 1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Colonial del Sacramento</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Colonial del Sacramento</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Colonial del Sacramento</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="buenosaires">
+        <div id="orcamento"><p class="orc1">Orçamento Buenos Aires</p></div> <br/> 1000,00 <br/> 
+        <div id="orcamento"><p class="orc2">Orçamento Buenos Aires</p></div> <br/> 2 x 550,00 <br/> 
+        <div id="orcamento"><p class="orc3">Orçamento Buenos Aires</p></div> <br/> 3 x 400,00 <br/> 
+        <div id="orcamento"><p class="orc4">Orçamento Buenos Aires</p></div> <br/> 4 x 300,00 <br/>  
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="bonito">
+        <div id="orcamento"><p class="orc1">Orçamento Bonito</p></div>  <br/> 1000,00 <br/> 
+        <div id="orcamento"><p class="orc2">Orçamento Bonito</p></div>  <br/> 2 x 550,00 <br/> 
+        <div id="orcamento"><p class="orc3">Orçamento Bonito</p></div>  <br/> 3 x 400,00 <br/> 
+        <div id="orcamento"><p class="orc4">Orçamento Bonito</p></div>  <br/> 4 x 300,00  <br/> 
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="termasdelarapay">
+        <div id="orcamento"><p class="orc1">Orçamento Termas del Aparay</p></div>  <br/> 1000,00 <br/> 
+        <div id="orcamento"><p class="orc2">Orçamento Termas del Aparay</p></div>  <br/> 2 x 550,00 <br/> 
+        <div id="orcamento"><p class="orc3">Orçamento Termas del Aparay</p></div>  <br/> 3 x 400,00 <br/> 
+        <div id="orcamento"><p class="orc4">Orçamento Termas del Aparay</p></div>  <br/> 4 x 300,00  <br/> 
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="termasdeldayman">
+        <div id="orcamento"><p class="orc1">Orçamento Termas del Dayman</p></div> <br/> 1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Termas del Dayman</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Termas del Dayman</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Termas del Dayman</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="lagoadoperi">
+        <div id="orcamento"><p class="orc1">Orçamento Lagoa do Peri</p></div> <br/>1000,00 <br/>
+        <div id="orcamento"><p class="orc2">Orçamento Lagoa do Peri</p></div> <br/> 2 x 550,00 <br/>
+        <div id="orcamento"><p class="orc3">Orçamento Lagoa do Peri</p></div> <br/> 3 x 400,00 <br/>
+        <div id="orcamento"><p class="orc4">Orçamento Lagoa do Peri</p></div> <br/> 4 x 300,00 <br/>
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="sp">
+        <div id="orcamento"><p class="orc1">Orçamento São Paulo</p></div>  <br/> 1000,00 <br/> 
+        <div id="orcamento"><p class="orc2">Orçamento São Paulo</p></div>  <br/> 2 x 550,00 <br/> 
+        <div id="orcamento"><p class="orc3">Orçamento São Paulo</p></div>  <br/> 3 x 400,00 <br/> 
+        <div id="orcamento"><p class="orc4">Orçamento São Paulo</p></div>  <br/> 4 x 300,00  <br/> 
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="curitiba">
+        <div id="orcamento"><p class="orc1">Orçamento Curitiba</p></div>  <br/> 1000,00 <br/> 
+        <div id="orcamento"><p class="orc2">Orçamento Curitiba</p></div>  <br/> 2 x 550,00 <br/> 
+        <div id="orcamento"><p class="orc3">Orçamento Curitiba</p></div>  <br/> 3 x 400,00 <br/> 
+        <div id="orcamento"><p class="orc4">Orçamento Curitiba</p></div>  <br/> 4 x 300,00  <br/> 
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+    <div id="fozdoiguacu">
+        <div id="orcamento"><p class="orc1">Orçamento Foz do Iguaçu</p></div>  <br/> 1000,00 <br/> 
+        <div id="orcamento"><p class="orc2">Orçamento Foz do Iguaçu</p></div>  <br/> 2 x 550,00 <br/> 
+        <div id="orcamento"><p class="orc3">Orçamento Foz do Iguaçu</p></div>  <br/> 3 x 400,00 <br/> 
+        <div id="orcamento"><p class="orc4">Orçamento Foz do Iguaçu</p></div>  <br/> 4 x 300,00  <br/> 
+        <div class="informacao"><h4>Informações Adicionais</h4></div>
+        <a href="pratica09exercicio04.html"><button id="btn">voltar</button></a>
+    </div>
+  </body>
+</html>

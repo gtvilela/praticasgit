@@ -1,0 +1,63 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    background-color: #3b5998;
+    color: white;
+    height: 2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.linha1 {
+    background-color: lavender;
+}
+.linha2 {
+    background-color: #8b9dc3;
+}
+tfoot {
+    background-color: orangered;
+    color: white;
+}
+td {
+    font-size: 0.7rem;
+    height: 1.5rem;
+    text-align: right;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.nome {
+    text-align: left;
+}
+table, td, th {
+    border: 0.05rem #3b5998 solid;
+    border-collapse: collapse;
+}
+.linha1:hover {
+    background-color: #50e6de;
+    color: #FF4500;
+    font-weight: bold;
+}
+.linha2:hover {
+    background-color: #ace0b1;
+    color: rgb(32, 50, 204);
+    font-weight: bold;
+}
+    padding-right: 0.3rem;
+}
+.nome {
+    text-align: left;
+}
+table, td, th {
+    border: 0.05rem #3b5998 solid;
+    border-collapse: collapse;
+}
+.linha1:hover {
+    background-color: white;
+    color: #FF4500;
+    font-weight: bold;
+}
+.linha2:hover {
+    background-color: white;
+    color: #FF4500;
+    font-weight: bold;
+}

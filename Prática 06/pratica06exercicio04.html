@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interface Humano-Computador - Laboratório - Prática 04 - Exercício
+    03</title>
+    </head>
+    <body>
+    <script>
+    var operacao = parseInt (prompt ("Informe o código da operação desejada: \n" +
+    "[1] Área do Retângulo \n" +
+    "[2] Área do Triângulo \n" +
+    "[3] Área do Círculo \n" +
+    "[4] Área do Trapézio "));
+
+   
+    switch (operacao) {
+    case 1:
+         var n1 = parseInt (prompt ("Informe o valor da base: "));
+         var n2 = parseInt (prompt ("Informe o valor da altura: "));
+    document.write (n1 + " x " + n2 + " = " + (n1 * n2));
+    break;
+    
+    case 2:
+         var n1 = parseInt (prompt ("Informe o valor da base: "));
+     var n2 = parseInt (prompt ("Informe o valor da altura: "));
+    document.write (n1 + " x " + n2 + " / 2 " +  " = " + (n1 * n2 /2));
+    break;
+    
+    case 3:
+   var c1 = parseInt (prompt ("Informe o valor do raio: "));
+    document.write ("3,14 x (" + c1 + ")² = " + (3.14 * Math.pow(c1, 2)));
+    break;
+    
+    case 4:
+    var t1 = parseInt (prompt ("Informe o valor da base maior: "));
+     var t2 = parseInt (prompt ("Informe o valor da base menor: "));
+     var t3 = parseInt (prompt ("Informe o valor da altura: "));
+    document.write ("(" + t1 + "+" + t2 + ") x" + t3 + " / 2 = " + ((t1 + t2) * t3 / 2));
+    break;
+    default:
+    document.write ("Código inválido!!!");
+    }
+    </script>
+    </body>
+    </html>

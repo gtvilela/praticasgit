@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+thead {
+    height: 4rem;
+    background-color: #3b5998;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #8b9dc3;
+}
+tr:nth-child(odd){
+    background-color: lavender;
+}
+
+
+.media {
+    background-color: orangered;
+    color: white;
+}
+
+table {
+    border-color: white;
+    width: 800px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+}
+
+td, th {
+    padding: 8px;
+}
+
+td.alinhamentoVertical {
+    vertical-align: text-top;
+}
+
+.alunos:hover {
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+}
+
+td.alinhamentoVertical:hover {
+     background-color: orangered;
+    color: white;
+    font-weight: bolder;
+}

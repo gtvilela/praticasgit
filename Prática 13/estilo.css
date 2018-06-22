@@ -1,0 +1,115 @@
+body {
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoImg {
+    background-color: #ffbbdd;
+    padding-left: 0.7rem;
+    padding-top: 0.35rem;
+    height: 7rem;
+    display: table-cell;
+    vertical-align: middle;
+    width: 60rem;
+}
+.titulo {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -6rem;
+}
+nav {
+    background-color: #f0b0d0;
+    width: 60rem;
+    margin-top: 2.3rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-family: tahoma;
+    font-style: bold;
+}
+ul {
+    margin-left: -2rem;
+    padding-top: 0.7rem;
+}
+li {
+    display: inline-block;
+    height: 1.5rem;
+    width: 5rem;
+    text-align: center;
+}
+a {
+    text-decoration-line: none;
+    color: white;
+}
+.produto {
+    display: inline-block;
+    margin: 0.8rem;
+    border: 0.05rem #e5e5e5 solid;
+    width: 13rem;
+    height: 16rem;
+    text-align: center;
+}
+.detalhes {
+    background-color: #f0f0f0;
+    margin-top: 2.8rem;
+    height: 4.5rem;
+    padding-top: 0.3rem;
+    font-size: 0.85rem;
+}
+footer {
+    background-color: #ffbbdd;
+    text-align: center;
+    font-size: 0.8rem;
+    height: 1.5rem;
+}
+.produtoImagem, .detalhes {
+    display: block;
+}
+.preco {
+    font-weight: bold;
+}
+footer p {
+    padding-top: 0.3rem;
+}
+#contatos {
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: 1rem;
+}
+.tContato {
+    margin-right: -4.5px;
+}
+#submit {
+    width: 15rem;
+    background-color: #ffbbdd;
+    color: white;
+}
+#nome, #email {
+    width: 15rem;
+}
+#mensagem {
+    width: 14.9rem;
+    position: relative;
+}
+#mensagem, .mensagem {
+    display: inline-flex;
+}
+select {
+    width: 15.2rem;
+    margin-bottom: 1px;
+}
+label {
+    font-size: 0.8rem;
+}
+.festas {
+    text-align: center;
+}
+#festas {
+    height: 300px;
+    height: 150px;
+    margin-top: 1rem;
+}

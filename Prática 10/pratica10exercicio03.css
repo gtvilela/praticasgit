@@ -1,0 +1,26 @@
+table {
+    border-color: white;
+    width: 800px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.primeiro {
+    background-color: green;
+}
+
+.segundo {
+    background-color: orange;
+}
+
+td, th {
+    padding: 8px;
+}
+
+td.alinhamentoVertical {
+	vertical-align: text-top;
+}
+

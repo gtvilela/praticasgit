@@ -1,0 +1,29 @@
+html, body {
+font-family: "Segoe UI", Verdana, Tahoma, sans-serif;
+}
+#menu{
+width: 200px;
+height: 300px;
+background-color: #fff;
+}
+.item, .sobre {
+width: 150px;
+height: 23px;
+padding: 7px;
+background-color: #fff;
+}
+.item a, .sobre a {
+color: #336600;
+text-decoration: none;
+font-size: 16px;
+font-weight: bold;
+}
+.sobre {
+background-image: url(fundo.jpg);
+}
+.sobre a {
+color:#fff;
+}
+a:hover {
+color: red;
+}

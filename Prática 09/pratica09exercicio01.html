@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> toString ()</title>
+<meta charset = "UTF-8"/>
+<script>
+function getValores () {
+var bool = true;
+var x = bool.toString ();
+var y = 10;
+document.getElementById ("resp").innerHTML =
+"Valor da variavél booleana 'bool': " + bool + "<br/>" +
+"Valor do string x: " + x + "<br/>" +
+"Conteúdo do vetor: " + ["casa", "jardim"].toString () + "<br/>" +
+"Número 10 em binário: " + y.toString (2) + "<br/>" +
+"Número 10 em octal: " + y.toString (8) + "<br/>" +
+"Número 10 em hexadecimal: " + y.toString (16);
+}
+</script>
+</head>
+<body>
+<h1>Clique no botão para exibir os valores das variáveis.</h1>
+<button onclick="getValores ()">OK</button>
+<p id="resp"></p>
+</body>
+</html>

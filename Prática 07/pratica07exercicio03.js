@@ -1,0 +1,15 @@
+var obj = new Object ();
+obj.nome = prompt("Informe seu nome: ");
+obj["telefone"] = prompt("Informe seu telefone: ");
+obj["matricula"] = prompt("Informe sua matrícula: ");
+document.write ("Aluno: <br/>");
+document.write ("Nome: " + obj["nome"] + "<br/>");
+document.write ("Telefone: " + obj.telefone + "<br/>");
+document.write ("Matrícula: " + obj.matricula + "<br/><br/>");
+var Obj = { };
+obj.curso = prompt("Informe seu curso: ");
+obj["campus"] = prompt("Informe o campus: ");
+obj["turno"] = prompt("Informe o turno: ");
+document.write ("Nome do Curso: <br/>");
+document.write ("Campus: " + obj["campus"] + "<br/>");
+document.write ("Turno: " + obj["turno"] + "<br/>");

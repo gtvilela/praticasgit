@@ -1,0 +1,41 @@
+
+h1 {
+    color: red;
+    font-size: 5rem;
+    text-align: center;
+}
+#jogar {
+    width: 10rem;
+    height: 2rem;
+    background: red;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3),
+                0 2px 7px rgba(0, 0, 0, 0.2);
+    color: #616165;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+}
+#premio {
+    background-color: burlywood;
+    width: 55rem;
+    margin-top: 2rem;
+}
+div {
+    font-size: 2rem;
+    text-align: center;
+}
+#escolhidos, #sorteio, #resultado {
+    width: 10rem;
+    background-color: #FFF;
+}
+p {
+    margin: auto auto;
+}
+#divmae {
+    visibility: hidden;
+}

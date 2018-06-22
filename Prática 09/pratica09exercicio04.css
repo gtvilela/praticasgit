@@ -1,0 +1,169 @@
+html, body {
+    font-size: 14px;
+    height: 100%;
+    font-family: "Segoe UI", "sans-serif";  
+    color: #808080;
+  }
+  
+  header {
+    padding: 0 0;
+    text-align: center;
+  }
+  
+  header img {
+    width: 25vw;
+    height: 25vh;    
+  }
+  .slogan, .login, .rodape {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slogan, .login {
+  padding: 25px 15px;
+  background-color: #FF4500;
+}
+
+.rodape {
+  color: #C0C0C0;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  background-color: #696969;
+}
+
+.slogan h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.login {
+  text-align: center;
+}
+
+.email_usr, .senha_usr {
+  padding: 3px;
+}
+.botao {
+  color: white;
+  padding: 5px 15px;
+  border: 0;
+  background-color: #FF8C00;
+}
+
+.destinos {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.destinos article {
+  margin-bottom: 5px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.destinos article img {
+  width: 25vw;
+  height: 35vh;  
+}
+
+.destinos article h5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.destinos form {
+  margin: 5px 0;
+}
+
+.destinos .botao {
+  padding: 5px 5px;
+  background-color: #127d00;
+  color: #fff;
+  text-decoration: none;
+}
+
+.telefone, .facebook, .whatsapp {
+  display: inline;
+}
+.whatsapp {
+  position: relative;
+  left: 30px;
+}
+
+.facebook {
+  position: relative;
+  left: 65px;
+}
+
+.rodape a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Mouse sobre o link: */
+a:hover {
+  text-decoration: underline;
+}
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6 {
+    display: inline-block;
+    text-align: center;
+    width: 385px;
+    height: 320px;
+}
+.destinos {
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+.orc1, .orc2, .orc3, .orc4 {
+  display: inline-block;
+  width: 694px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  background-color: #127d00;
+}
+
+div {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40rem;
+  border: 2px solid #D3D3D3;
+}
+.informacao {
+  height: 10rem;
+  border-top: 1px solid #FF4500;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #FF4500;
+  text-align: center;
+}
+#orcamento {
+  height: 15rem;
+  width: 696px;
+  display: inline-block;
+  border: none;
+  margin-left: 2px;
+}
+#rio, #jalapao, #bentogoncalves, #aparados, #riodorastro, #pomerode, #chapadadosveadeiros, #puntadelleste,
+#montevideo, #coloniadelsacramento, #buenosaires, #bonito, #termasdelarapay, #termasdeldayman, #lagoadoperi,
+#sp, #curitiba, #fozdoiguacu{
+  display: none;
+}
+#btn {
+  padding: 5px 5px;
+  background-color: #FF8C00;
+  color: #fff;
+  text-decoration: none;
+  width: 10rem;
+  border: none;
+  margin-top: 5px;
+}
